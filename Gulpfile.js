@@ -13,7 +13,7 @@ var dest = "packages";
 
 var srcEx, libFragment;
 
-if (path.win32 === path) {
+if (process.platform==="win32" || path.win32 === path) {
   srcEx = /(packages\\[^\\]+)\\src\\/;
   libFragment = "$1\\lib\\";
 } else {

@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-transform-typescript-prepare",
+  "version": "0.0.1",
+  "description": "helps with ts adoption",
+  "main": "lib/index.js",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {
+    "babel-runtime": "^5.0.0",
+    "babel-types": "*"
+  },
+  "devDependencies": {
+    "babel-helper-plugin-test-runner": "^6.3.13"
+  }
+}
