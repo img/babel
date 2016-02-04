@@ -17,3 +17,9 @@ dist
 /packages/*/lib
 _babel.github.io
 /tests/.browser-build.js
+\#*\#
+.\#*
+*~
+
+
+
